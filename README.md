@@ -1,4 +1,7 @@
-# myapp
+# TP VueJS
+
+## Auteur
+Thomas Le Floch
 
 ## Project setup
 ```

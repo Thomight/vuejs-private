@@ -1,5 +1,5 @@
 {
-  "name": "myapp",
+  "name": "my-project",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -27,5 +27,25 @@
     "eslint-plugin-vue": "^6.2.2",
     "typescript": "~3.9.3",
     "vue-template-compiler": "^2.6.11"
-  }
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended",
+      "@vue/typescript/recommended"
+    ],
+    "parserOptions": {
+      "ecmaVersion": 2020
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
 }
